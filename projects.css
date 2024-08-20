@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+.proj{
+ 
+    font-family: cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 200px;
+    align-content: space-around;
+ 
+ 
+}
+.blue{
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+
+}
+.proj a{
+    color: white;
+    font-family: cursive;
+    font-style: normal;
+}

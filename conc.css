@@ -1,0 +1,21 @@
+
+.conc ul{
+  display: flex;
+  margin: 100px;
+  justify-content: space-between;
+}
+.conc1 img{
+  height :20px;
+  width: 20px;
+
+}
+.conc1 a{
+   font-size: 20px;
+   font-family: cursive;
+}
+body{
+    background-color: rgb(194, 25, 180);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
