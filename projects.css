@@ -1,17 +1,38 @@
 body{
     background-color: blueviolet;
 }
-.proj{
- 
-    font-family: cursive;
+.proj {
+  display: flex;
+  flex-direction: row;   /* Horizontal layout */
+  justify-content: center;
+  gap: 20px;            /* Space between projects */
+  padding: 20px;
+}
+
+
+
+
+.proj {
+  font-family: cursive;
     font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 200px;
-    align-content: space-around;
- 
- 
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .proj {
+    flex-direction: column; /* Vertical layout */
+    align-items: center;    /* Center projects */
+    gap: 15px;
+  }
+
+  .proj {
+    width: 80%;  /* Take more width on mobile */
+  }
 }
 .blue{
     color: blanchedalmond;
@@ -24,4 +45,5 @@ body{
     color: white;
     font-family: cursive;
     font-style: normal;
+
 }
